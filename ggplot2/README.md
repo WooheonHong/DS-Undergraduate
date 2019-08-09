@@ -1,4 +1,5 @@
-해들리 위컴의 ggplot2 elegant graphics for data analysis을 정리한 자료입니다.
+해들리 위컴의 ggplot2 elegant graphics for data analysis을 정리한 자료입니다. 
+파일의 용량이 크기때문에 download후 읽어주세요.
 
 # Ch2 Getting Started with ggplot2
 # Ch3 Toolbox
