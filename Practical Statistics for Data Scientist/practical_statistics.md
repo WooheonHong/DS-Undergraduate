@@ -15,7 +15,7 @@ mean(state[["Population"]])
 ```
 
     ## [1] 6162876
-
+    
 ``` r
 mean(state[["Population"]], trim = 0.1)
 ```
@@ -415,7 +415,7 @@ dist는 지수분포를 확장한 것으로, shape parameter \(\beta\)로 발생
 
 # Ch3. Statistical Experiments and Significance Testing
 
-![.](capture/캡처0.png)
+![](capture/캡처0.PNG)
 
 ## A/B Testing
 
