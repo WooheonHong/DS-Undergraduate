@@ -1,6 +1,6 @@
 Practical Statistics for Data Scientists
 ================
-true
+
 2019년 1월
 
 # Ch1. EDA
@@ -415,7 +415,7 @@ dist는 지수분포를 확장한 것으로, shape parameter \(\beta\)로 발생
 
 # Ch3. Statistical Experiments and Significance Testing
 
-![](capture/캡처0.png)
+![.](capture/캡처0.png)
 
 ## A/B Testing
 
