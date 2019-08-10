@@ -534,7 +534,7 @@ exhaustive permutation test = exact test
 통계적 유의성이란, 통계학자가 자신의 실험 결과가 우연히 일어난 것인지 아니면 우연히 일어날 수 없는 극단적인 건인지를 판단하는
 방법이다. 결과가 우연히 벌어질 수 있는 변동성의 바깥에 존재한다면 우리는 이것을 통계적으로 유의하다고 말한다.
 
-![](capture/캡처.png)
+![](capture/캡처.PNG)
 
 가격 A가 가격 B에 비해 0.0368%p 개선되었다. 전환율이 너무 낮아, 실제 필요한 표본크기를 결정하는 데 매우 중요한 값은
 200개 정도에 불과하다. 두 전환율 사이에 차이가 있는지를 permutation test를 통해 확인해보자.
@@ -936,7 +936,7 @@ ggplot(df, aes(pred, abs(resid))) +
 ```
 
 ![A plot of the absolute value of the residuals versus the predicted
-values](capture/캡처3.png)
+values](capture/캡처3.PNG)
 
 #### scatterplot smoothers
 
@@ -969,7 +969,7 @@ ggplot(df, aes(SqFtTotLiving, PartialResid)) +
 ```
 
 ![A partial residual plot for the variable
-SqFtTotLiving](capture/캡처2.png)
+SqFtTotLiving](capture/캡처2.PNG)
 
 partial residual은 SqFtTotLiving가 주택 가격에 얼마나 영향을 미치는지 보여준다.
 SqFtTotLiving와 가격 사이의 관계는 분명히 비선형이다. 회귀선에 따르면 1000제곱피트보다 작은 평슈의 집에
@@ -1048,7 +1048,7 @@ residual plot의 주요 사용 목적)
 
 ![A polynomial regression fit for the variable SqFtTotLiving(solid line)
 versus a smooth (dashed line; see the following section about
-splines)](capture/캡처4.png)
+splines)](capture/캡처4.PNG)
 
 ### Splines
 
@@ -1072,7 +1072,7 @@ spline regression 이 더 좋다는 것을 의미하지는 않는다. 크기가 
 가질 것이라는 예측 결과는 경제적으로 맞지 않다. 이것은 confounding variable 때문일 수 있다.
 
 ![A spline regression fit for the variable SqFtTotLiving (solid line)
-compared to a smooth (dashed line)](capture/캡처5.png)
+compared to a smooth (dashed line)](capture/캡처5.PNG)
 
 ### Generalized Additive Models
 
@@ -1085,7 +1085,7 @@ data=house_98105)
 ```
 
 ![A GAM regression fit for the variable SqFtTotLiving (solid line)
-compared to a smooth (dashed line)](capture/캡처6.png)
+compared to a smooth (dashed line)](capture/캡처6.PNG)
 
 주요 개념
 
@@ -1204,7 +1204,7 @@ ggplot(data=lda_df, aes(x=borrower_score, y=payment_inc_ratio, color=prob_defaul
   geom_line(data=lda_df0, col='green', size=2, alpha=.8) 
 ```
 
-![](capture/캡처lda.png)
+![](capture/캡처lda.PNG)
 
 일부 응용 분야에서 LAD를 사용하고 있으며, PCA와 같이 아직도 많이 사용되는 다른 방법들과도 연결된다. 설명변수의 중요도나
 feature selectiion에도 사용된다.
@@ -1243,7 +1243,7 @@ ggplot(df, aes(x = payment_inc_ratio, y = partial_resid, solid = FALSE)) +
   labs(y = 'Partial Residual')
 ```
 
-![Partial residuals from logistic regression](capture/캡처7.png)
+![Partial residuals from logistic regression](capture/캡처7.PNG)
 
 위쪽 구름은 1의 응답(연체)을 의미하고 아래쪽 구름은 0의 응답(대출 상환)을 의미한다. 결과변수가 이진형이기 때문에, 로지스틱
 회귀에서 얻은 잔차는 보통 이러한 형태를 띄게 된다. 로지스틱 회귀에서 편잔차는 회귀에서보다 덜 중요하긴 하지만, 비선형성을
@@ -1267,7 +1267,7 @@ conf_mat
 ```
 
 ![Confusion matrix for a binary response and various
-metrics](capture/캡처8.png)
+metrics](capture/캡처8.PNG)
 
 cf. [F1-Score](https://www.youtube.com/watch?v=8DbC39cvvis)
 
@@ -1521,9 +1521,9 @@ loan_tree
 ```
 
 ![The rules for a simple tree model fit to the loan
-data](capture/캡처9.png)
+data](capture/캡처9.PNG)
 
-![](capture/캡처10.png)
+![](capture/캡처10.PNG)
 
 트리의 깊이를 들여쓰기의 정도로 쉽게 파악할 수 있다. 각 노드는 해당 분할 규칙에 대해 우세한 쪽으로 결정하는 임시 분류를
 의미한다. ’손실’은 이러한 임시 분할에서 발생하는 오분류의 개수를 의미한다. 노드, (실제)분류, (실제)오분류,
@@ -1534,7 +1534,7 @@ data](capture/캡처9.png)
 의사 결정 트리를 만들 때는 재귀 분할이라고 하는 알고리즘을 사용한다. 예측변수 값을 기준으로 데이터를 반복적으로 분할해나간다.
 
 ![The rules for a simple tree model fit to the loan
-data](capture/캡처11.png)
+data](capture/캡처11.PNG)
 
 1.  각 예측 변수 \(X_j\)에 대해,
 
@@ -2119,12 +2119,12 @@ XGBoost](practical_statistics_files/figure-gfm/fig5-1.png)
 
 ridge regression에서는 잔차제곱합에 회귀계수의 개수와 크기에 따라 벌점을 추가한 값을 최소화한다.
 
-![](capture/캡처12.png)
+![](capture/캡처12.PNG)
 
 \(\lambda\)는 계수에 대해 어느 정도 벌점을 부여할 것인가를 결정한다. 이 값이 클수록 모델이 데이터에 오버피팅할
 가능성이 낮아진다. lasso회귀 역시 이와 비슷한데, 다만 벌점 항에 유클리드 거리 대신 맨하탄 거리를 이용한다.
 
-![](capture/캡처13.png)
+![](capture/캡처13.PNG)
 
 \[L_p = (\sum_{i = 1}^n|x_i|^p)^{\frac{1}{p}}\]
 
@@ -2860,7 +2860,7 @@ dnd <- as.dendrogram(hcl)
 plot(dnd, leaflab='none')
 ```
 
-![](capture/캡처14.png)
+![](capture/캡처14.PNG)
 
 다음 코드를 사용하면 하위 트리 중 하나(cut을 사용해 0.5를 기준으로 잘랐을 때 가장 왼쪽에 있는 그룹)에 포함된 레코드들을
 살펴볼 있다.
