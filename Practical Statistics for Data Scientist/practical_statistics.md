@@ -1292,7 +1292,7 @@ cf. [분류모델의 성능 평가](http://bcho.tistory.com/tag/F1%20score)
   - Specificity(True Negative rate):
     ![equation](https://latex.codecogs.com/gif.latex?\[\frac{\Sigma&space;TrueNegative}{\Sigma&space;TrueNegative&space;&plus;&space;\Sigma&space;FalsePositive}\])
   - accuracy: balanced data에서 유용.
-    ![equation](https://latex.codecogs.com/gif.latex?\[\frac{\Sigma&space;TruePositive&space;&plus;&space;\Sigma&space;TrueNegative}){SampleSize}\])
+    ![equation](https://latex.codecogs.com/gif.latex?\[\frac{\Sigma&space;TruePositive&space;&plus;&space;\Sigma&space;TrueNegative}{SampleSize}\])
   - Error Rate: 전체 데이터 중에서 잘못 분류한 비율.
     ![equation](https://latex.codecogs.com/gif.latex?\[\frac{\Sigma&space;FalseNegative&space;&plus;&space;\Sigma&space;FalsePositive}{SampleSize}\])
   - f1-score: precision과 recall의 조화평균. 조화평균은 큰 값에 패널티를 준다. 따라서
