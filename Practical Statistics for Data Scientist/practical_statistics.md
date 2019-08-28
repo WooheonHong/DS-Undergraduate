@@ -1283,21 +1283,21 @@ cf. [F1-Score](https://www.youtube.com/watch?v=8DbC39cvvis)
 cf. [분류모델의 성능 평가](http://bcho.tistory.com/tag/F1%20score)
 
   - precision: 양성 결과의 정확도.
-    \[\frac{\Sigma TruePositive}{\Sigma TruePositive + \Sigma FalsePositive}\]
+    https://latex.codecogs.com/gif.latex?\[\frac{\Sigma&space;TruePositive}{\Sigma&space;TruePositive&space;&plus;&space;\Sigma&space;FalsePositive}\]
   - Recall(Sensitivity or True Positive Rate): 양성 결과를 예측하는 모델의 성능을 평가한다.
-    \[\frac{\Sigma TruePositive}{\Sigma TruePositive + \Sigma FalseNegative} = \frac{\Sigma TruePositive}{Positive}\]
+    https://latex.codecogs.com/gif.latex?\[\frac{\Sigma&space;TruePositive}{\Sigma&space;TruePositive&space;&plus;&space;\Sigma&space;FalseNegative}&space;=&space;\frac{\Sigma&space;TruePositive}{Positive}\]
   - False Positive Rate:
-    \[\frac{\Sigma FalsePositive}{\Sigma FlasePositive + \Sigma TrueNegative} = \frac{\Sigma FalsePositive}{Negative}\]
+    https://latex.codecogs.com/gif.latex?\[\frac{\Sigma&space;FalsePositive}{\Sigma&space;FlasePositive&space;&plus;&space;\Sigma&space;TrueNegative}&space;=&space;\frac{\Sigma&space;FalsePositive}{Negative}\]
     원래는 negative인데 positive로 잘못 판단
   - Specificity(True Negative rate):
-    \[\frac{\Sigma TrueNegative}{\Sigma TrueNegative + \Sigma FalsePositive}\]
+    https://latex.codecogs.com/gif.latex?\[\frac{\Sigma&space;TrueNegative}{\Sigma&space;TrueNegative&space;&plus;&space;\Sigma&space;FalsePositive}\]
   - accuracy: balanced data에서 유용.
-    \[\frac{\Sigma TruePositive + \Sigma TrueNegative}{SampleSize}\]
+    https://latex.codecogs.com/gif.latex?\[\frac{\Sigma&space;TruePositive&space;&plus;&space;\Sigma&space;TrueNegative}{SampleSize}\]
   - Error Rate: 전체 데이터 중에서 잘못 분류한 비율.
-    \[\frac{\Sigma FalseNegative + \Sigma FalsePositive}{SampleSize}\]
+    https://latex.codecogs.com/gif.latex?\[\frac{\Sigma&space;FalseNegative&space;&plus;&space;\Sigma&space;FalsePositive}{SampleSize}\]
   - f1-score: precision과 recall의 조화평균. 조화평균은 큰 값에 패널티를 준다. 따라서
     imbalanced데이터에 적절.
-    \[2 * \frac{Precision * Recall}{Precision + Recall}\]
+    https://latex.codecogs.com/gif.latex?\[2&space;*&space;\frac{Precision&space;*&space;Recall}{Precision&space;&plus;&space;Recall}\]
 
 ### The Rare Class Problem
 
