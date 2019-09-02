@@ -1,1 +1,1 @@
-Python for Data Analysis를 정리했습니다.
+차후에 업데이트 예정
