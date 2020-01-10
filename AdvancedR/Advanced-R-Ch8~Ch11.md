@@ -219,7 +219,7 @@ map_dbl(x, mean, na.rm = TRUE)
 
     ## [1] 3.0 5.5
 
-![](capture/캡처3.png)
+![](capture/캡처3.PNG)
 
 ``` r
 plus <- function(x, y) x + y
@@ -487,7 +487,7 @@ Map variants
 -   아무것도 아님을 반환하는 `walk()`
 -   다수의 인풋인 `pamp()`
 
-![](capture/캡처4.png)
+![](capture/캡처4.PNG)
 
 ### Same type of output as input: `modify()`
 
@@ -702,7 +702,7 @@ map2_dbl(xs, ws, weighted.mean, na.rm = TRUE)
     ## [1] 0.4955732 0.5599931 0.2959516 0.4787293 0.4462173 0.3838773 0.5088023
     ## [8] 0.4500092
 
-![](capture/캡처5.png)
+![](capture/캡처5.PNG)
 
 ``` r
 simple_map2 <- function(x, y, f, ...) {
@@ -749,7 +749,7 @@ walk(names, welcome)
 
 디스크에 뭔갈 저장할 때 가장 흔한 side-effect이기 때문에 `walk2()`는 아주 유용할 것이다.
 
-![](capture/캡처6.png)
+![](capture/캡처6.PNG)
 
 데이터프레임 리스트를 가지고 있고, 각각을 별도로 csv파일로 저장하기를 원한다고 하자.
 
@@ -855,7 +855,7 @@ pmap(params, runif)
     ## [[3]]
     ## [1] 645.0986 352.6198 101.5966
 
-![](capture/캡처7.png)
+![](capture/캡처7.PNG)
 
 ### Exercises
 
@@ -907,7 +907,7 @@ Reduce family
 
 `reduce()`는 n길이의 벡터를 취하고 길이 1의 벡터를 생성한다: `reduce(1:4, f)`는 `f(f(f(1, 2), 3), 4)`와 동일하다.
 
-![](capture/캡처8.png)
+![](capture/캡처8.PNG)
 
 ``` r
 l <- map(1:4, ~ sample(1:10, 15, replace = T))
@@ -993,7 +993,7 @@ reduce(integer(), `+`)
 
     ## Error: `.x` is empty, and no `.init` supplied
 
-![](capture/캡처9.png)
+![](capture/캡처9.PNG)
 
 `reduce(1,`+`, init)`을 하게 되면 결과가 `1 + init`
 
@@ -1254,7 +1254,7 @@ fn_env(cube)$exp
 
 ### Diagram conventions
 
-![](capture/캡처11.png)
+![](capture/캡처11.PNG)
 
 ``` r
 square(10)
@@ -1264,7 +1264,7 @@ square(10)
 
 `square()`이 실행될때 `x ^ exp`는 실행 환경에서 `x`를 찾고 `exp`는 enclosing환경에서 찾는다.
 
-![](capture/캡처12.png)
+![](capture/캡처12.PNG)
 
 ### Forcing evaluation
 
