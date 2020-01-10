@@ -984,7 +984,7 @@ mtcars[[var]]
 
 타당하지 않는 인덱스를 사용할 때 `[[`와 함께 일어나는 것을 이해하는 것은 유용하다.
 
-![](capture\캡처2.png)
+![](capture\캡처2.PNG)
 
 위 테이블의 비일관성때문에 `purrr::pluck()`와 `purrr::chuck()`를 개발하였다. 성분이 missing일 때 `pluck()`는 항상 `NULL`를 반환하고 `chuck()`는 항상 에러를 발생시킨다. `pluck()`의 행동양식은 존재하지 않기를 원하는 성분이 있는 깊게 nested 자료구종에 잘 어울리도록 해준다.(JSON같은) `pluck()`는 또한 정수와 문자 인덱스를 섞을 수 있게 허용해서 항목이 존재하지 않는다면 대체 디폴트 값을 제공한다.
 
@@ -2032,7 +2032,7 @@ Special environments
 
 ### Package environments and the search path
 
-![](capture/캡처.png)
+![](capture/캡처.PNG)
 
 ``` r
 search_envs()
