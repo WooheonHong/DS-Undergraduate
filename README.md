@@ -1,7 +1,7 @@
 Data Science - undergraduate student
 ============================
 
-Data Sceience books when I undergraduate student.
+Data sceience books when I undergraduate student.
 
 | Book | Finish Date | Topic 
 |----------|:--------------:|-------|
