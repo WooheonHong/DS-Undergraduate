@@ -5,6 +5,7 @@ ML books since I graduated undergraduate.
 
 | Book | Finish Date | Topic 
 |----------|:--------------:|-------|
+|[Do it! 쉽게 배우는 R 데이터 분석](http://www.yes24.com/Product/Goods/43868089)|2020-11-05|Tidyverse, R|
 |[The R Book](https://www.amazon.com/R-Book-Michael-J-Crawley/dp/0470973927/ref=sr_1_2?keywords=the+R+book&qid=1585008936&rnid=2941120011&s=books&sr=1-2&swrs=C2685C74B38013F9113D1E3F3DBCBDDF)|2017-12-10|R|
 |[ggplot2: Elegant Graphics for Data Analysis](https://www.amazon.com/ggplot2-Elegant-Graphics-Data-Analysis-ebook/dp/B01GVCRF6M/ref=sr_1_2?keywords=ggplot&qid=1585008623&sr=8-2)|2018-02-28|Data Science, ggplot, R|
 |[R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://www.amazon.com/Data-Science-Transform-Visualize-Model-ebook/dp/B01NAJAEN5/ref=sr_1_1?crid=1D1IM8LNCVBQ&keywords=r+for+data+science&qid=1585008482&sprefix=R+for+data+%2Caps%2C332&sr=8-1)|2018-07-29|Data Science, Tidyverse, R|
