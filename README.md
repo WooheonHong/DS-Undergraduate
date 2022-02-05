@@ -1,4 +1,4 @@
-personal_undergraduate
+Data Science - undergraduate student
 ============================
 
 ML books since I graduated undergraduate.
