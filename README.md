@@ -1,7 +1,7 @@
 Data Science - undergraduate student
 ============================
 
-ML books since I graduated undergraduate.
+Data Sceience books when I undergraduate student.
 
 | Book | Finish Date | Topic 
 |----------|:--------------:|-------|
